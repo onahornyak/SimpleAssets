@@ -696,8 +696,8 @@ CONTRACT SimpleAssets : public contract{
 		* Helps external contracts parse actions and tables correctly (Usefull for decentralized exchanges,
 		* marketplaces and other contracts that use multiple tokens)
 		* Marketplaces, exchanges and other reliant contracts will be able to view this info using the following code.
-		*   Configs configs("simpl1assets"_n, "simpl1assets"_n.value);
-		*	configs.get("simpl1assets"_n);
+		*   Configs configs("simpleassets"_n, "simpleassets"_n.value);
+		*	configs.get("simpleassets"_n);
 		*/
 		TABLE tokenconfigs {
 			name			standard;
